@@ -96,8 +96,8 @@ y2 = np.cos(2*(np.pi)*0.03*(tiempo_n))
 
 # Se crean la tercera y cuarta senal con las operaciones de suma y multiplicacion
 
-y3 = y + y2
-y4 = y*y2
+senal_sum = y + y2
+senal_t = y*y2
 
 plt.figure()
 plt.plot(tiempo_n,y, label = 'Y')
