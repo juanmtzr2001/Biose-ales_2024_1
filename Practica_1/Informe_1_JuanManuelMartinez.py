@@ -31,3 +31,29 @@ Matriz_ones = np.ones((5,3))
 # El primer argumento recibe una tupla con las dimensiones de la matriz, los otros dos argumentos 
 # reciben el tipo de dato que se ingresa y el orden.
 print(Matriz_ones)
+
+
+# La funcion round sirve para redondear hacia abajo los valores de una matriz, un vector o un numero cualquiera 
+# al numero de decimales que se desee. 
+#El primer argumento es el dato que se quiere redondear, el segundo el numero de decimales al que se quiere
+#Redondear y el tercero es si se quiere especificar algun array donde guardar el resultado
+
+Matriz_B = np.array([[2, -1.542, -3.487], [4, 1.587, -2.597], [7.321, -0.943, 0.274]])
+Matriz_round = np.round(Matriz, decimals = 1, out = None)
+print(Matriz_round)
+
+# La funcion ceil sirve para redondear a valores enteros hacia arriba, datos de una matriz, un vector o un numero cualquiera 
+# al numero de decimales que se desee. 
+#El primer argumento es el dato que se quiere redondear, el segundo el numero de decimales al que se quiere
+#Redondear y el tercero es si se quiere especificar algun array donde guardar el resultado
+
+Matriz_ceil = np.ceil(Matriz_B)
+print(Matriz_ceil)
+
+# La funcion ceil sirve para redondear a valores enteros hacia abajo, datos de una matriz, un vector o un numero cualquiera 
+# al numero de decimales que se desee. 
+#El primer argumento es el dato que se quiere redondear, el segundo el numero de decimales al que se quiere
+#Redondear y el tercero es si se quiere especificar algun array donde guardar el resultado
+
+Matriz_floor = np.floor(Matriz_B)
+print(Matriz_floor)
