@@ -52,7 +52,7 @@ print(Matriz_round)
 Matriz_ceil = np.ceil(Matriz_B)
 print(Matriz_ceil)
 
-# La funcion ceil sirve para redondear a valores enteros hacia abajo, datos de una matriz, un vector o un numero cualquiera 
+# La funcion floor sirve para redondear a valores enteros hacia abajo, datos de una matriz, un vector o un numero cualquiera 
 # al numero de decimales que se desee. 
 #El primer argumento es el dato que se quiere redondear, el segundo el numero de decimales al que se quiere
 #Redondear y el tercero es si se quiere especificar algun array donde guardar el resultado
